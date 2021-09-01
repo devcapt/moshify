@@ -9,15 +9,34 @@
     <link rel="stylesheet" href="/css/styles.css" />
 
     <!-- fonts -->
-      <link rel="preconnect" href="https://fonts.googleapis.com"> 
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- fonts -->
   </head>
   <body>
-    <h1>Heading 1</h1>
-    <h2>Heading 2</h2>
-    <h3>Heading 3</h3>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum delectus necessitatibus harum incidunt ab mollitia tempora repellendus sunt at nemo.</p>
+    <div style="width: 40%;">
+      <div class="card card--secondary">
+        <header class="card__header">
+          <h3 class="plan__name">Entry</h3>
+          <span class="plan__price">$14</span>
+          <span class="plan__billing-cycle">/month</span>
+          <span class="badge badge--secondary badge--small">10% off</span>
+          <span class="plan__description">Easy start, don't breaks the bank</span>
+        </header>
+        <div class="card__body">
+          <li class="list list--tick">
+            <ol class="list__item">Unlimited Websites</ol>
+            <ol class="list__item">Unlimited Bandwidth</ol>
+            <ol class="list__item">100 GB SSd Storage</ol>
+            <ol class="list__item">3 GB RAM</ol>
+          </li>
+          <button class="btn btn--block btn--outline">buy now</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
